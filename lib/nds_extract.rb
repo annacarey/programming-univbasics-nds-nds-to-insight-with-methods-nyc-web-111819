@@ -8,10 +8,11 @@ require 'directors_database'
 def directors_totals(nds)
   result = {}
   index = 0 
-  while row_index < nds.length
+  while index < nds.length
     gross_for_director(nds[row_index])
     index += 1
 end 
+p result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
