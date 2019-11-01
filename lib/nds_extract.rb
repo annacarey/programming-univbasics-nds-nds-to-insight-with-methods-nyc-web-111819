@@ -10,6 +10,7 @@ def directors_totals(nds)
   index = 0 
   while row_index < nds.length
     gross_for_director(nds[row_index])
+    index += 1
 end 
 end
 
